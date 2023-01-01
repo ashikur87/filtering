@@ -1,0 +1,25 @@
+.foodContainer{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+}
+.btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    margin: 10px;
+}
+.all{
+    margin: 10px;
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+   
+}
+.item{
+    display: flex;
+    margin: 10px;
+}
+.items{
+    display: flex;
+    align-items: center;
+}
